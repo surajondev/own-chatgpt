@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Own ChatGPT</title>
+</head>
+<body>
+    <div class="form-container">
+        <form id="myForm">
+            <label for="textInput">Input Text:</label>
+            <input type="text" id="textInput" required>
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+        
+        <!-- Add the "Load Data" button -->
+        <button id="loadDataButton">Load Data</button>
+
+        <div id="loader" class="hidden"></div>
+        <div id="response" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
